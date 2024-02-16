@@ -1,0 +1,4 @@
+CompileFlags:
+  Add: [ -ferror-limit=0 ]
+Diagnostics:
+  Suppress: [ -Wunused-includes, -Wunused-function, -Wunused-macros, -Wlanguage-extension-token ]

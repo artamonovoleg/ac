@@ -1,0 +1,30 @@
+build/
+.vscode/
+
+*.bin
+*.user
+
+**/.xmake/
+
+# MacOS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+*.DS_Store
+
+# Visual studio
+**/.vs/
+**.vcxproj.user
+**.user
+**.log
+
+## User settings
+**/xcuserdata/**
+
+.cache/
+
+**/shaders/compiled/**
+
+makefiles/
